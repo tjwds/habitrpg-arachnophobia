@@ -29,11 +29,17 @@ function arachnophobia(){
   	$(".Pet-Spider-"+item).hide();
 		$(".Mount_Head_Spider-"+item).hide();
 		$(".Mount_Body_Spider-"+item).hide();
+		$(".Pet-Rat-"+item).hide();
+		$(".Mount_Head_Rat-"+item).hide();
+		$(".Mount_Body_Rat-"+item).hide();
 	}
+
+	$(".quest_spider").hide();
+	$(".quest_rat").hide();
 }
 
 setInterval(function(){arachnophobia();
-}, 500);
+}, 100);
 
 	}
 }, 1000);

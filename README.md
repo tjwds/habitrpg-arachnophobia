@@ -1,11 +1,6 @@
-habitrpg-boss-button
+habitrpg-arachnophobia
 ====================
 
-Chrome extension to create a "boss button" to remove game-looking elements from HabitRPG, permitting its safe use at work or in class. 
+Chrome extension to squish all the spiders on HabitRPG so that people don't need to see them. 
 
-See:  [HabitRPG](https://github.com/HabitRPG/habitrpg)
-
-Image of the button in action: 
-![image goes here](http://i.imgur.com/QOoqqhh.png)
-
-Simple, huh?
+To install, simply [download the .crx](https://github.com/tjwds/habitrpg-arachnophobia/raw/master/habitrpg-arachnophobia.crx) and drag and drop it into your extensions in Chrome.  Simple, huh?

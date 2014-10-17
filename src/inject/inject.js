@@ -32,7 +32,8 @@ function arachnophobia(){
 	}
 }
 
-arachnophobia();
+setInterval(function(){arachnophobia();
+}, 500);
 
 	}
 }, 1000);

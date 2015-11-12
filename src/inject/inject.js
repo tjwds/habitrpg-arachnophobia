@@ -26,16 +26,20 @@ function arachnophobia(){
 
 	for (var i=0, item; item = list[i]; i++) {
 		//item
-  	$(".Pet-Spider-"+item).hide();
+  	      $(".Pet-Spider-"+item).hide();
 		$(".Mount_Head_Spider-"+item).hide();
 		$(".Mount_Body_Spider-"+item).hide();
-		$(".Pet-Rat-"+item).hide();
+	      $(".Pet-Rat-"+item).hide();
 		$(".Mount_Head_Rat-"+item).hide();
 		$(".Mount_Body_Rat-"+item).hide();
+	      $(".Pet-Snake-"+item).hide();
+		$(".Mount_Head_Snake-"+item).hide();
+		$(".Mount_Body_Snake-"+item).hide();
 	}
 
 	$(".quest_spider").hide();
 	$(".quest_rat").hide();
+	$(".quest_snake").hide()
 }
 
 setInterval(function(){arachnophobia();
